@@ -11,7 +11,6 @@ public class Io_matrix {
         int m = Integer.parseInt(br.readLine());
         System.out.print("Nhập số cột của ma trận: ");
         int n = Integer.parseInt(br.readLine());
-
         int[][] a = new int[m][n];
 
         for (int i = 0; i < m; i++) {
